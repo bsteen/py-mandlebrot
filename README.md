@@ -1,1 +1,1 @@
-![Example of Output](800x800_150@(-1, 1),(-1.5, 0.5).png)
+![Example of Output](example_output.png)
