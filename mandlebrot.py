@@ -104,6 +104,6 @@ if __name__ == "__main__":
     image_array = cpu_generate(IMAGE_SIZE, x_range, y_range)
     # image_array = cuda_generate(IMAGE_SIZE, x_range, y_range)
 
-    # matplotlib.pyplot.imsave(f"{IMAGE_SIZE}x{IMAGE_SIZE}_{MAX_ITERATIONS}@{x_range},{y_range}.png", image_array)
+    matplotlib.pyplot.imsave(f"{IMAGE_SIZE}x{IMAGE_SIZE}_{MAX_ITERATIONS}@{x_range},{y_range}.png", image_array)
     # matplotlib.pyplot.imshow(image_array)
     # matplotlib.pyplot.show()
