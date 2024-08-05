@@ -22,11 +22,11 @@
 
 from multiprocessing import Pool
 import itertools
-import cupy
 import matplotlib.pyplot
 import numpy as np
 
 def cuda_generate(image_size, x_range, y_range):
+    import cupy
     # FIXME
     kernel = cupy.ElementwiseKernel(
         "complex64 c, uint32 MAX_ITERATIONS",
